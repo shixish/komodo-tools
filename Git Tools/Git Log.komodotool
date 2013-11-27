@@ -1,0 +1,19 @@
+{
+  "insertOutput": 0, 
+  "parseRegex": "", 
+  "name": "Git Log", 
+  "keyboard_shortcut": "", 
+  "runIn": "command-output-window", 
+  "operateOnSelection": 0, 
+  "value": [
+    "git log --reverse -n 15"
+  ], 
+  "cwd": "%p", 
+  "version": "1.0.12", 
+  "env": "", 
+  "doNotOpenOutputWindow": 0, 
+  "showParsedOutputList": 0, 
+  "type": "command", 
+  "parseOutput": 0, 
+  "icon": "chrome://crystal/skin/icons/14_layer_novisible.png"
+}

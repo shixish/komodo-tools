@@ -1,0 +1,19 @@
+{
+  "insertOutput": 0, 
+  "parseRegex": "", 
+  "name": "Git Add All New", 
+  "keyboard_shortcut": "", 
+  "runIn": "command-output-window", 
+  "operateOnSelection": 0, 
+  "value": [
+    "git add . -v"
+  ], 
+  "parseOutput": 0, 
+  "version": "1.0.12", 
+  "env": "", 
+  "doNotOpenOutputWindow": 0, 
+  "showParsedOutputList": 0, 
+  "type": "command", 
+  "cwd": "%p", 
+  "icon": "chrome://crystal/skin/icons/edit_add.png"
+}

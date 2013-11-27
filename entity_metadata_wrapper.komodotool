@@ -1,0 +1,12 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "entity_metadata_wrapper", 
+  "value": [
+    "$n = entity_metadata_wrapper('node', $node);!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.12", 
+  "type": "snippet", 
+  "indent_relative": "false", 
+  "auto_abbreviation": "false"
+}

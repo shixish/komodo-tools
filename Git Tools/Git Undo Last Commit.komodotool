@@ -1,0 +1,19 @@
+{
+  "insertOutput": 0, 
+  "parseRegex": "", 
+  "name": "Git Undo Last Commit", 
+  "keyboard_shortcut": "", 
+  "runIn": "new-console", 
+  "operateOnSelection": 0, 
+  "value": [
+    "git reset HEAD~1"
+  ], 
+  "cwd": "%p", 
+  "version": "1.0.12", 
+  "env": "", 
+  "doNotOpenOutputWindow": 0, 
+  "showParsedOutputList": 0, 
+  "type": "command", 
+  "parseOutput": 0, 
+  "icon": "chrome://crystal/skin/icons/recur.png"
+}

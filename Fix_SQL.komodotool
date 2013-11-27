@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Fix SQL", 
+  "language": "JavaScript", 
+  "trigger_enabled": false, 
+  "value": [
+    "// Macro recorded on: Sat Mar 10 2012 09:19:46 GMT-1000 (Hawaiian Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 0, ', ', ', \\\\n', true, 2, 0, false, false);", 
+    "ko.find.replaceAllInMacro(window, 0, ' AND ', '\\\\nAND ', true, 2, 0, false, false);", 
+    "", 
+    "ko.find.replaceAllInMacro(window, 0, ' FROM ', '\\\\nFROM ', true, 2, 0, false, false);", 
+    "ko.find.replaceAllInMacro(window, 0, ' WHERE ', '\\\\nWHERE ', true, 2, 0, false, false);", 
+    "ko.find.replaceAllInMacro(window, 0, ' ORDER BY ', '\\\\nORDER BY ', true, 2, 0, false, false);", 
+    "ko.find.replaceAllInMacro(window, 0, ' LEFT JOIN ', '\\\\nLEFT JOIN ', true, 2, 0, false, false);", 
+    "ko.find.replaceAllInMacro(window, 0, ' INNER JOIN ', '\\\\nLEFT JOIN ', true, 2, 0, false, false);", 
+    "//ko.find.replaceAllInMacro(window, 0, ' AND ', '\\\\nAND ', true, 2, 0, false, false);"
+  ], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": false, 
+  "type": "macro"
+}

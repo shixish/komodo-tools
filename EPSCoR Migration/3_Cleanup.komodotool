@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "3. Cleanup", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "value": [
+    "// Macro recorded on: Sat Nov 16 2013 13:49:11 GMT-1000 (Hawaiian Standard Time)", 
+    "komodo.assertMacroVersion(3);", 
+    "if (komodo.view) { komodo.view.setFocus(); }", 
+    "ko.find.replaceAllInMacro(window, 0, '^--.*', '', true, 2, 1, false, false);", 
+    "ko.find.replaceAllInMacro(window, 0, '^\\\\n', '', true, 2, 1, false, false);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "trigger_enabled": false, 
+  "async": false, 
+  "type": "macro"
+}
